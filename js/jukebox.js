@@ -18,6 +18,7 @@ function menu() {
   $('#menu').on('click', handleMenuClick); 
 }
 
+
 function handleMenuClick(e) {
   $('#menuOptions').html("You can play a song, pause a song, or view all the songs");
   console.log("#menu was clicked!");
